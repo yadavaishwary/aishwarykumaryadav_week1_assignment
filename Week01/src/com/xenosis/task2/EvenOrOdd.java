@@ -2,7 +2,8 @@ package com.xenosis.task2;
 
 import java.util.Scanner;
 
-public class EvenOrOdd {
+public class EvenOrOdd 
+{
 
 	public static void main(String[] args) 
 	{
