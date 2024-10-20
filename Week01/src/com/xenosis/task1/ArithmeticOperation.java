@@ -2,7 +2,8 @@ package com.xenosis.task1;
 
 import java.util.Scanner;
 
-public class ArithmeticOperation {
+public class ArithmeticOperation 
+{
 
 	public static void main(String[] args)
 	{
@@ -34,10 +35,10 @@ public class ArithmeticOperation {
         
 		//Printing Result
 		System.out.println("Addition = "+addition);
-        System.out.println("Substraction = "+substraction);
-        System.out.println("Multiplication ="+multiplication);
-        System.out.println("Division = "+division);
-        sc.close();//closing resource
+                System.out.println("Substraction = "+substraction);
+                System.out.println("Multiplication ="+multiplication);
+                System.out.println("Division = "+division);
+                sc.close();//closing resource
 	}
 
 }
