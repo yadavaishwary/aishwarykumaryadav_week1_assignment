@@ -1,0 +1,36 @@
+package com.xenosis.task1;
+
+import java.util.Scanner;
+
+public class ArithmeticOperation {
+
+	public static void main(String[] args)
+	{
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter firstNumber");
+		int firstNumber=sc.nextInt();
+		
+		System.out.println("Enter secondNumber");
+		int secondNumber=sc.nextInt();
+		
+		int addition=firstNumber+secondNumber;
+		int substraction=firstNumber-secondNumber;
+		int multiplication=firstNumber*secondNumber;
+		
+		int divison;
+		if(secondNumber>0)
+		{
+			divison=firstNumber/secondNumber;
+
+		}
+		else
+			System.out.println("plz provide correct second number which is greater then zero");
+        System.out.println("Addition = "+addition);
+        System.out.println("Substraction = "+substraction);
+        System.out.println("Multiplication ="+multiplication);
+        System.out.println("Division = "+divison);
+	}
+
+}

@@ -1,0 +1,46 @@
+package com.xenosis.task3;
+
+import java.util.Scanner;
+
+public class SimpleCalculator {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+Scanner sc=new Scanner(System.in);
+		
+		System.out.println("******Simple Calculator Operation******");
+		System.out.println("for addition type 1"+"\n"+"for substraction type 2"+"\n"+"for multiplication type 3"+"\n"+"for division type 4");
+		
+		int choice=sc.nextInt();
+		
+		
+		System.out.println("Enter first value ");
+		int firstValue=sc.nextInt();
+		System.out.println("Enter Second Value ");
+		int secondValue=sc.nextInt();
+		
+		
+		
+		switch(choice)
+		{
+		case 1:{
+			int result=firstValue+secondValue;
+			System.out.println("Addition of two number is: "+result);
+		}
+		case 2:{
+			if(choice>0)
+			{
+			int result=firstValue-secondValue;
+			System.out.println("Substraction of two number is: "+result);
+			}
+			else
+				System.out.println();
+			}
+		}
+
+	}
+
+	}
+
+}

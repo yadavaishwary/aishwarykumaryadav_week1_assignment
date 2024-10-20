@@ -1,0 +1,29 @@
+package com.xenosis.task1;
+
+import java.util.Scanner;
+
+public class ArithmeticOperation {
+
+	public static void main(String[] args)
+	{
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("******Basic Arithmetic Operation******");
+		System.out.println("for addition type 1"+"\n"+"for substraction type 2"+"\n"+"for multiplication type 3"+"\n"+"for division type 4");
+		
+		int choice=sc.nextInt();
+		
+		
+		System.out.println("Enter first value ");
+		int firstValue=sc.nextInt();
+		System.out.println("Enter Second Value ");
+		int secondValue=sc.nextInt();
+		
+		
+		
+		//1switch(choice)
+
+	}
+
+}
